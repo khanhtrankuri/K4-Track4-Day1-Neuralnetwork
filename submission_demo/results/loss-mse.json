@@ -1,0 +1,44 @@
+{
+  "cfg": {
+    "exp_id": "loss-mse",
+    "group": "loss",
+    "description": "MSE trên nhãn one-hot thay cho CE",
+    "loss": "mse",
+    "optimizer": "sgd_momentum",
+    "lr": 0.3,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "batch": 512,
+    "epochs": 20,
+    "hidden": [
+      256,
+      128
+    ],
+    "dropout": 0.0,
+    "init": "he",
+    "clip_norm": null,
+    "precision": "fp32",
+    "seed": 1
+  },
+  "history": {
+    "epoch": [],
+    "train_loss": [],
+    "val_loss": [],
+    "val_acc": [],
+    "val_macro_f1": [],
+    "grad_norm": [],
+    "epoch_time_s": []
+  },
+  "summary": {
+    "step0_loss": 2.8887388756629053,
+    "best_val_loss": NaN,
+    "best_epoch": null,
+    "final_train_loss": NaN,
+    "final_val_loss": NaN,
+    "val_acc": NaN,
+    "val_macro_f1": NaN,
+    "time_per_epoch_s": NaN,
+    "peak_mem_MB": 171.50146484375,
+    "diverged": true
+  }
+}
